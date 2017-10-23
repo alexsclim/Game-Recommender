@@ -34,7 +34,7 @@ dict_y([H|R], H) :-
 
 % Build the knowledge base first whenever the project is made before allowing
 % users to make queries
-%% :- initialization(steam(_,_,_)).
+:- initialization(steam(_,_,_)).
 
 % Natural language processing. Code is based off of David Poole's solution to
 % Question 3 in Assignment 4 regarding geography
